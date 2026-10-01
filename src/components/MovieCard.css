@@ -1,0 +1,42 @@
+.movie-card__rating {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: var(--ink);
+  color: var(--gold);
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 3px 8px 3px 20px;
+  border-radius: 999px;
+  border: 1px solid var(--gold-dim);
+}
+
+.movie-card__rating::before {
+  content: '★';
+  position: absolute;
+  left: 8px;
+}
+
+.movie-card__cta {
+  display: block;
+  width: 100%;
+  margin: 10px 0 0;
+  text-align: center;
+  font-size: 0.82rem;
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--text);
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 9px;
+  cursor: pointer;
+  transition:
+    border-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.movie-card__cta:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}

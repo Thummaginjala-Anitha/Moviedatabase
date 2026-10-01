@@ -1,0 +1,18 @@
+.error-message {
+  text-align: center;
+  padding: 90px 20px;
+  border: 1px dashed var(--line);
+  border-radius: var(--radius);
+}
+
+.error-message__title {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  margin: 0 0 8px;
+}
+
+.error-message__body {
+  color: var(--text-muted);
+  margin: 0;
+  font-size: 0.9rem;
+}
